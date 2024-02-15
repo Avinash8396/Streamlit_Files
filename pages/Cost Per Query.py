@@ -14,6 +14,16 @@ snowflake_params = {
 
 st.header('Cost Per Query')
 
+st.markdown(
+    """
+    ### Cost Per Query.
+    -- provides us with an approximate query cost for each query_id. To accommodate instances where the same query is executed multiple times within a given period, we have aggregated the results based on the query_text.
+    **👈 Select a demo from the sidebar** to see some examples
+    of what Streamlit can do!
+    
+"""
+)
+
 def calculate_and_display_warehouse_cost(snowflake_params):
     try:
         cost_per_query = """
@@ -40,11 +50,10 @@ def calculate_and_display_warehouse_cost(snowflake_params):
                 start_time >= CURRENT_DATE - 30
         )
         SELECT
-            query_id,
             query_text,
             SUM(query_cost) AS total_query_cost_last_30d
         FROM queries
-        GROUP BY 1,2;
+        GROUP BY 1;
         """
         
         # Connect to Snowflake
