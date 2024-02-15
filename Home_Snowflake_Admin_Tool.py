@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
-#from snowflake.snowpark.context import get_active_session
+from snowflake.snowpark.context import get_active_session
 import snowflake.connector
+from constant import *
+from static import *
 
 st.write("# Snowflake Administration Tool! 👋")
+
+#image_url = "https://drive.google.com/uc?export=view&id=1x0ew-WjGcjaSPOMC8lPA0kWwTeu--qK6"
 
 st.markdown(
     """
@@ -33,6 +37,9 @@ snowflake_params = {
     'database': 'UTIL_NEW',
     'schema': 'SAMPLE_SCH',
 }
+
+# -----------------  loading assets  ----------------- #
+st.sidebar.markdown(info['image_url'])
 
 # Function to create a new user
 def create_new_user(user_name, user_password, conn):
