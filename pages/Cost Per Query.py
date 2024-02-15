@@ -17,7 +17,7 @@ st.header('Cost Per Query')
 st.markdown(
     """
     ### Cost Per Query.
-    -- provides us with an approximate query cost for each query_id. To accommodate instances where the same query is executed multiple times within a given period, we have aggregated the results based on the query_text.
+    Provides us with an approximate query cost for each query_id. To accommodate instances where the same query is executed multiple times within a given period, we have aggregated the results based on the query_text.
     **👈 Select a demo from the sidebar** to see some examples
     of what Streamlit can do!
     

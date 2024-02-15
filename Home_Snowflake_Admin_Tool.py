@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from snowflake.snowpark.context import get_active_session
+
 import snowflake.connector
 from constant import *
-from static import *
+#streamlifrom static import *
 
 st.write("# Snowflake Administration Tool! 👋")
 
