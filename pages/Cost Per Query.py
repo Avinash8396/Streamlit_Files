@@ -2,6 +2,9 @@ import streamlit as st
 import snowflake.connector
 import pandas as pd
 
+
+
+######
 # Snowflake connection parameters
 snowflake_params = {
     'user': 'Avinash',
