@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-
 import snowflake.connector
 from constant import *
 #streamlifrom static import *
@@ -49,6 +48,13 @@ def create_new_user(user_name, user_password, conn):
     except Exception as e:
         st.error(f'Error adding user: {str(e)}')
 
+#   https://www.youtube.com/watch?v=byHcYRpMgI4   refer this to know about the database connection 
+#  f'...': This is an f-string in Python, which allows for string interpolation. 
+#  It allows you to embed Python expressions directly within a string. 
+# Anything within curly braces {} inside the string will be evaluated as a Python expression.
+# using the execute method of the cursor obtained from the conn object.
+            
+#
 # Function to drop a user
 def drop_user(selected_user, conn):
     try:
