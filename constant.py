@@ -1,6 +1,6 @@
 info = {
    "Photo":"""<a href=\"https://www.genpact.com/\"><img src="https://drive.google.com/uc?export=view&id=1x0ew-WjGcjaSPOMC8lPA0kWwTeu--qK6" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
-   "Email": "vicky.kuo.contact@gmail.com",
+   "Email": "avinashsharma.contact@gmail.com",
    "image_url":"https://drive.usercontent.google.com/download?id=1x0ew-WjGcjaSPOMC8lPA0kWwTeu--qK6&export=preview"
 }
 
