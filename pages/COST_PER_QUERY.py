@@ -6,8 +6,8 @@ import pandas as pd
 snowflake_params = {
     'user': 'Avinash',
     'password': 'Covid@2021',
-    'account': 'ym83942.ap-south-1',
-    'warehouse': 'WH_XS',
+    'account': 'mf95899.ap-south-1',
+    'warehouse': 'COMPUTE_WH',
     'database': 'UTIL_NEW',
     'schema': 'SAMPLE_SCH',
 }

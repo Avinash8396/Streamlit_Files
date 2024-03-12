@@ -1,26 +1,7 @@
 info = {
-   "Pronoun": "her", 
-   "Name": "Vicky",
-   "Full_Name": "Vicky Kuo",
-   "Intro": "A Tech Educator and AI Enthusiast at cognitiveclass.ai",
-   "About":"Hey there, I'm Vicky! I'm passionate about leveraging data and technology to drive meaningful insights and solutions in business. Check out my free courses and projects on cognitiveclass.ai: https://cognitiveclass.ai/",
-   "Tableau":"https://public.tableau.com/app/profile/vickytc/viz/SunnybrookTeam/Overview",
-   "Medium":"https://medium.com/@vicky-note/about",
-   "City":"Toronto, Canada",
    "Photo":"""<a href=\"https://www.genpact.com/\"><img src="https://drive.google.com/uc?export=view&id=1x0ew-WjGcjaSPOMC8lPA0kWwTeu--qK6" width=\"200\"   alt=\"Profile\" title=\"Profile\"></a>""",
    "Email": "vicky.kuo.contact@gmail.com",
    "image_url":"https://drive.usercontent.google.com/download?id=1x0ew-WjGcjaSPOMC8lPA0kWwTeu--qK6&export=preview"
-}
-
-embed_rss= {
-    'rss':"""<div style="overflow-y: scroll; height:500px; background-color:white;"> <div id="retainable-rss-embed" 
-        data-rss="https://medium.com/feed/@vicky-note"
-        data-maxcols="3" 
-        data-layout="grid"
-        data-poststyle="inline" 
-        data-readmore="Read the rest" 
-        data-buttonclass="btn btn-primary" 
-        data-offset="0"></div></div> <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>"""
 }
 
 endorsements = {
